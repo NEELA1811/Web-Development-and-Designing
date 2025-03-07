@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.hero {
+    background-size:600px 400px;
+    background-position: center;
+    height: 125vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #CCDCFF;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 304px;
+    position: relative;
+    margin-top:-4px;
+}
+
+
+.features, .pricing {
+    padding: 50px;
+    width: 812px;
+    background-color:plum;
+    height: 500px;
+    margin-left: 304px;
+    
+}
+
+
+.header {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.header-image {
+    
+    width: 60%; /* Full-width banner */
+    max-height:450px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures proper fit */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(176, 8, 209, 0.2); /* Adds a transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ffcc00;
+    color: rgb(206, 55, 216);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: rebeccapurple;
+    border-width: 10;
+ 
+}
+
+.slay
+{
+    height: 1010px;
+    
+    background: rgba(176, 8, 209, 0.2); /* Adds a transparent black background */
+}
